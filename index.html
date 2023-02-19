@@ -187,18 +187,19 @@
         </div>
 
       </div>
-      <div class="col-lg-4 col-md-4 col-sm-4 col-12 contactright">
-        <form class="mt-5 p-3" action="./submitemail.php" name="contact_form" method="post" id="contactform">
+    <div class="col-lg-4 col-md-4 col-sm-4 col-12 contactright">
+        <form action="https://formspree.io/f/meqwgagk"
+  method="POST" class="mt-5 p-3"  name="contact_form"  id="contactform">
           <div class="form-floating mb-3">
-            <input type="text" class="form-control" id="floatingInput fullname" placeholder="Enter Name">
+            <input type="text" class="form-control" name="name" id="floatingInput fullname" required placeholder="Enter Name">
             <label for="floatingInput">Full Neme*</label>
           </div>
           <div class="form-floating mb-3">
-            <input type="email" class="form-control" id="floatingInput Email" placeholder="name@example.com">
+            <input type="email" class="form-control" id="floatingInput Email" name="email" required placeholder="name@example.com">
             <label for="floatingInput">Email address*</label>
           </div>
           <div class="form-floating">
-            <textarea class="form-control" placeholder="Leave a message here" id="floatingTextarea2"
+            <textarea class="form-control" name="message" placeholder="Leave a message here" id="floatingTextarea2"
               style="height: 100px"></textarea>
             <label for="floatingTextarea2">Message</label>
           </div>
