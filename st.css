@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contactright{
+   background-color: #141722;
+    
+}
+.scrollbtn{
+    position: fixed;
+    height: 2rem;
+    width: 2rem;
+    background-color: black;
+    color: white;
+    right: 4rem;
+    bottom: 5rem;
+    border-radius: 1rem;
+  
+    
+}
+.scrollbtn :hover{
+    background-color: red;
+    color: white;
+    position: fixed;
+    height: 2rem;
+    width: 2rem;
+    background-color: red;
+    color: white;
+    right: 4rem;
+    bottom: 5rem;
+    border-radius: 1rem;
+}
+.autotype{
+    top: 5rem;
+    left: 5rem;
+}
